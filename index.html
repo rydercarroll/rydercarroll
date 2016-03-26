@@ -1,24 +1,22 @@
 ---
 layout: default
-description: this is this pages description
 ---
 
 <div class="home">
-  <h2>Hi, I'm Ryder</h2>
-  <h2>  a Brooklyn based digital product designer. He has over 10 years of experience crafting innovative digital solutions that balance narrative, beauty, and usability. His clients and projects include Adidas, American Express, Estée Lauder, Macy's, Ann Taylor, Talbots, White House Black Market, 180 Amsterdam, 1st Ave Machine, and Huge.
+  <h2> Hi, I'm Ryder a Brooklyn based digital product designer. He has over 10 years of experience crafting innovative digital solutions that balance narrative, beauty, and usability. His clients and projects include Adidas, American Express, Estée Lauder, Macy's, Ann Taylor, Talbots, White House Black Market, 180 Amsterdam, 1st Ave Machine, and Huge.
 </h2>
-  <a class="post-link" href="{{ site.baseurl }}/blog">blog</a>
 
-  <h2> Recent Writing </h2>
+
+  <h2> <a class="post-link" href="{{ site.baseurl }}/blog">Recent Writings</a></h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>
+        <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        </h4>
       </li>
     {% endfor %}
   </ul>

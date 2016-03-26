@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2016-03-26 12:29:43 -0400
-categories: blog
+categories: test
 tags: this, that, the other thing
 ---
 

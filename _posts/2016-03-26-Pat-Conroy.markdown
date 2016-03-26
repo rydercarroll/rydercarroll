@@ -5,7 +5,7 @@ date:   2016-03-26 12:29:43 -0400
 categories: stories
 ---
 
-#When I was in early High-school, my parents told me we’re going to have a guest stay with us in Vienna. We’re a private family and didn’t often have visitors, so I knew they must love him and that he’d probably be a character.
+# When I was in early High-school, my parents told me we’re going to have a guest stay with us in Vienna. We’re a private family and didn’t often have visitors, so I knew they must love him and that he’d probably be a character.
 
 The last guest we had stay with us - “Uncle” Bob - lit up the sky over the old city with a flare he launched…from our apartment window…with a teargas bullet. I liked having guests.
 

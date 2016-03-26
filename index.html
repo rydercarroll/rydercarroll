@@ -5,9 +5,26 @@ description: this is this pages description
 
 <div class="home">
   <h2>Hi, I'm Ryder</h2>
-  <p> I'm a digital product designer and creator of the Bullet Journal</p>
+  <h2>  a Brooklyn based digital product designer. He has over 10 years of experience crafting innovative digital solutions that balance narrative, beauty, and usability. His clients and projects include Adidas, American Express, Estée Lauder, Macy's, Ann Taylor, Talbots, White House Black Market, 180 Amsterdam, 1st Ave Machine, and Huge.
+</h2>
   <a class="post-link" href="{{ site.baseurl }}/blog">blog</a>
 
+  <h2> Recent Writing </h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
 
 </div>
